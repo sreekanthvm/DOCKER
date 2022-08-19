@@ -15,8 +15,8 @@
         * A docker registry stores the docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run you own private registry.
         * When you use the docker pull or docker run commands, the required imanges are pulled from your configured registry. When you use the docker push command, you image is pushed to your configured registry.
 
-    * Docker Objects:
-        When you use Docker, you are creating and using images, containers, network, volumes, plugins, and other objects. This section is brief overview of some of those objects.
+    * **Docker Objects**:
+        * When you use Docker, you are creating and using images, containers, network, volumes, plugins, and other objects. This section is brief overview of some of those objects.
         * **Images**
             * An image is a read-only template with instructions for creatig a Docker container. Ofter, an image is based on another image, with some additional customization. For example, you may build an image which is based on the ubuntu image, but installs the Apache Web server and your applications as well as the confiugration details needed to make your application run.
             * You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a **Dockerfile** with simple syntax for defining the steps needed to create the image and run it. Each instructions in Dockerfile creates a **layer** in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtulazation techonologies.

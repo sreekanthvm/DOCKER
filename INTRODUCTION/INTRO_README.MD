@@ -34,5 +34,5 @@
 
         For more info of namespaces refer here (https://man7.org/linux/man-pages/man7/namespaces.7.html)
         For official docs: (https://docs.docker.com/get-started/)
-        For chroot information refer here (https://phoenixnap.com/kb/chroot-jail)
+        For chroot information refer here (https://phoenixnap.com/kb/chroot-jail), (https://www.redhat.com/sysadmin/deeper-linux-chroot-jails)
     
