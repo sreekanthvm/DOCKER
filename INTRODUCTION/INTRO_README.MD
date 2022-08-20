@@ -13,6 +13,7 @@
     * A container is a lightweight application isolation mechanisim that allows the kernel to run groups of processes in their own isolated user spaces, separate from the host system. The container has its own process list, network stack, file sytems, and other resources, but shares the kernel with the host and the other containers running on the system. Linux containers are implemented through a combination of three kernel features: Names spaces for isolation, control groups for resource control, and SELinux for security. 
     * A tool called "**Docker**" is used to create, control, and manage containers. Docker adds an API, an image format, and a delivery and sharing model to linux containers. A Docker image contains an application and all its dependecies. When a container is started, a **read write layer** for that container is combined with the **read-only** image using LVM thin provisioning. Docker images are portable and can be saved and exported to other systems and users.
     ![Preview](./image1.PNG)
+    ![Preview](./image2.PNG)
 
 
 * **Namespaces**
